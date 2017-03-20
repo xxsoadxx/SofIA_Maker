@@ -1,0 +1,1195 @@
+    {
+        "begin": {
+            "global": {},
+            "var": {
+                "respuesta1": "Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, en la sección Por Autorizar, al lado derecho existe un icono azul que dice Nuevo Destinatario, ingrese y siga los pasos. Una vez ingresado los datos correctamente se generará un código de autorización, el cual llegará a su correo electrónico inscrito. Este código es el que debe incorporar para que el beneficiario quede habilitado para operar.",
+                "respuesta2": "Ingrese a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Mis Destinatarios, Por Autorizar. La inscripción de las cuentas debe realizarlas él o los Apoderado(s) de la empresa ya que por seguridad no permite que otros usuarios realicen la inscripción de cuentas nuevas.",
+                "respuesta3": "El único autorizado para realizar esta gestión es él o los Apoderados de la Empresa",
+                "respuesta4": "Ingresar a Menú Pagos y Servicios/Pago de Nómina en Línea NUEVO/Mis destinatarios. En Mis destinatarios existe una opción que se llama \"Por autorizar con código Generado\".  Pinchar el nombre del destinatario que desee recuperar el código y luego botón verde “Autorizar”",
+                "respuesta5": "En el Menú Mi Banco, existe la opción Administración. Ingrese a la opción “Ingreso y Listado de Usuarios”",
+                "respuesta7": "Existe una opción en donde es posible reutilizar un pago, que le permite utilizar una nómina previamente cargada en un pago anterior. Para ello ingreses a Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Paso 1 Cargar Nóminas. Seleccionar Reutilizar Pago.",
+                "respuesta8": "Ingrese a Menú Pagos y Servicios, ingrese a Pago de Nóminas NUEVO, Paso 1 Cargar Nóminas. Seleccionar Ingresar Pago manualmente.",
+                "respuesta9": "Para saber detalles, existen dos modalidades donde puede visualizar la nómina. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.",
+                "respuesta10": "Debes modificarla para corregir y enviar a Firma de la nómina. En caso de que no quieras corregir se puede enviar la nómina sin corrección pero los destinatarios con error se eliminarán de ésta. Para saber detalles, existen dos modalidades donde puede visualizar el error. Opción 1: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Estado de Nóminas, ingresar en la nómina que presenta observaciones identificada con un signo rojo, seleccionando el código de identificación. Opción 2: Menú Pagos y Servicios/Pago de Nóminas NUEVO, opción Reporte de Nóminas, Ingresar código de identificación.",
+                "respuesta11": "Esto aparece porque se está cargando en la nómina beneficiarios nuevos, en donde es obligación el incorporar el campo \"alias\". Este campo es para poder identificar de manera rápida un beneficiario. Ejemplo: Mamá, Local Nro#, Caja chica, etc. La solución es completar los datos que están en la columna M llamada “cuenta destino inscrita como”. En esta columna debe indicar un nombre y un apellido para poder inscribir las cuentas nuevas, cabe recalcar que independiente que la cuenta ya existe es obligatorio incluir este dato en dicha columna. Se sugiere en estos casos eliminar dicha nómina en la web, completar los datos de la nómina y realizar una nueva carga. Teniendo en cuenta que debe cambiar el nombre de la nómina.",
+                "respuesta6": "Existe un tutorial y paso a paso en el mismo sitio web. Menú Pagos y Servicios/Pago de Nóminas NUEVO opción ¿Qué es? Ahí encontrará material de apoyo para realizar su primera carga de nómina y todas sus consultas relacionadas. En caso que requiera asistencia telefónica, favor indicar teléfono de contacto, para que un Ejecutivo lo contacte a la brevedad.",
+                "master": "Bantotal Developers",
+                "name": "Sofía",
+                "age": "2",
+                "birthday": "5 de Octubre",
+                "sex": "mujer",
+                "location": "Latu",
+                "city": "Montevideo",
+                "eyes": "azules",
+                "hair": "castaño",
+                "hairlen": "corto",
+                "color": "marron",
+                "band": "David Guetta",
+                "book": "El Principito",
+                "author": "Antoine de Saint Exupery",
+                "job": "Banco Bci",
+                "website": "www.bci.cl"
+            },
+            "sub": {},
+            "person": {
+                "vos sos": "yo soy",
+                "vos": "yo",
+                "yo soy": "tu eres",
+                "tu eres": "yo soy",
+                "soy": "eres",
+                "eres": "soy",
+                "mio": "tuyo",
+                "tuyo": "mio",
+                "tu": "yo",
+                "yo": "tu"
+            },
+            "array": {
+                "need": [
+                    "no estan",
+                    "tengo que",
+                    "debo",
+                    "puedo",
+                    "pueden",
+                    "necesito",
+                    "quiero",
+                    "como",
+                    "probando",
+                    "preciso",
+                    "imploro",
+                    "ruego",
+                    "deseo",
+                    "anhelo",
+                    "quisiera",
+                    "desearia",
+                    "necesitaria",
+                    "precisaria"
+                ],
+                "register": [
+                    "generar",
+                    "ingresar",
+                    "integrarlos",
+                    "registrar",
+                    "registrarlos",
+                    "registrados",
+                    "registro",
+                    "agrego",
+                    "agregar",
+                    "agregarlos",
+                    "sumar",
+                    "sumarlos",
+                    "dar de alta",
+                    "darlos de alta",
+                    "ingresarlos",
+                    "almacenarlos",
+                    "insertarlos",
+                    "adherirlos",
+                    "adherir"
+                ],
+                "authorize": [
+                    "autorizar",
+                    "autorizo",
+                    "autorizados",
+                    "autorizarlos",
+                    "autorizarlo",
+                    "autorizacion",
+                    "permitir",
+                    "permitirlos",
+                    "permitirlo",
+                    "permiso",
+                    "permisos",
+                    "aprobar",
+                    "aprobarlos",
+                    "aprobarlo"
+                ],
+                "activate": [
+                    "activar",
+                    "habilitar",
+                    "habilitarlos",
+                    "habilitarlo"
+                ],
+                "beneficiary": [
+                    "destinatarios",
+                    "destinatario",
+                    "beneficiario",
+                    "beneficiarios",
+                    "persona en mi nomina",
+                    "personas en mi nomina",
+                    "personas en mi nominas",
+                    "persona en mi nominas"
+                ],
+                "welcome": [
+                    "hola",
+                    "como estas",
+                    "que haces",
+                    "buen dia",
+                    "buenas tardes",
+                    "buenas noches",
+                    "estas",
+                    "necesito ayuda",
+                    "hay alguien",
+                    "buenas"
+                ],
+                "thanks": [
+                    "gracias",
+                    "muchas gracias",
+                    "listo gracias"
+                ],
+                "help": [
+                    "necesito ayuda",
+                    "me ayudas",
+                    "ayuda",
+                    "me asistes",
+                    "asistencia",
+                    "necesito una mano",
+                    "me ayudarias",
+                    "me asistirias"
+                ],
+                "yes": [
+                    "si",
+                    "sii",
+                    "sabelo",
+                    "ok",
+                    "dale",
+                    "afirmativo",
+                    "dale gas",
+                    "encajale",
+                    "metele",
+                    "siii",
+                    "bueno",
+                    "listo"
+                ],
+                "no": [
+                    "no",
+                    "nah",
+                    "nope",
+                    "no",
+                    "none",
+                    "na"
+                ],
+                "cant": [
+                    "no puedo",
+                    "no estoy pudiendo lograr",
+                    "no estoy pudiendo conseguir",
+                    "no estoy pudiendo lograrlo",
+                    "no estoy pudiendo conseguirlo",
+                    "no pude",
+                    "no pudimos lograr",
+                    "no estoy pudiendo conseguir",
+                    "no estoy pudiendo lograrlo",
+                    "no estoy pudiendo conseguirlo",
+                    "no lo puedo",
+                    "no estoy pudiendo",
+                    "no pude",
+                    "fracase",
+                    "no lo logre",
+                    "no logro",
+                    "no logre",
+                    "no lo consegui",
+                    "no estoy consiguiendo",
+                    "no lo estoy consiguiendo",
+                    "no estoy logrando",
+                    "no lo estoy logrando"
+                ],
+                "recover": [
+                    "recuperar",
+                    "restaurar",
+                    "restauro",
+                    "recuperaria",
+                    "recupere",
+                    "recuperare",
+                    "restaurare",
+                    "restauraria",
+                    "recobrar",
+                    "restablecer",
+                    "recobrare",
+                    "restablecere",
+                    "restablezco",
+                    "restableci"
+                ],
+                "authcode": [
+                    "codigo",
+                    "codigo de autorizacion",
+                    "codigo autorizacion"
+                ],
+                "arrivenot": [
+                    "no me llego",
+                    "no llego",
+                    "no arrivo",
+                    "no me arrivo",
+                    "no recibi",
+                    "no lo tengo",
+                    "no lo recibi",
+                    "no tengo",
+                    "no lo veo",
+                    "no me estaria arrivando",
+                    "no me estaria llegando",
+                    "no estaria llegando",
+                    "no estaria arrivando",
+                    "no obtuve",
+                    "no lo obtuve"
+                ],
+                "try": [
+                    "intentando",
+                    "intentandolos",
+                    "tratando",
+                    "reiterando",
+                    "probando",
+                    "reintentando"
+                ],
+                "change": [
+                    "cambiar",
+                    "modificar",
+                    "alterar",
+                    "modificacion",
+                    "actualizar",
+                    "cambie",
+                    "modifique",
+                    "altere",
+                    "actualize",
+                    "actualice",
+                    "actualizacion",
+                    "modificacion",
+                    "alteracion"
+                ],
+                "mail": [
+                    "email",
+                    "mail",
+                    "correo electronico",
+                    "e-mail",
+                    "e mail",
+                    "casilla",
+                    "correo",
+                    "gmail",
+                    "hotmail"
+                ],
+                "upload": [
+                    "cargar",
+                    "cargo",
+                    "subir",
+                    "enviar",
+                    "cargo",
+                    "cargue",
+                    "subi",
+                    "subimos",
+                    "subo",
+                    "cargamos",
+                    "enviamos",
+                    "envie",
+                    "subiria",
+                    "cargaria",
+                    "enviaria",
+                    "mandar",
+                    "mandarle"
+                ],
+                "file": [
+                    "archivo",
+                    "planilla",
+                    "documento",
+                    "nomina"
+                ],
+                "program": [
+                    "programar",
+                    "agendar",
+                    "agendare",
+                    "programare",
+                    "planear",
+                    "planificar",
+                    "planificaria",
+                    "programaria",
+                    "agendaria",
+                    "programado",
+                    "agendado",
+                    "planificado"
+                ],
+                "manual": [
+                    "manualmente",
+                    "manual",
+                    "casero"
+                ],
+                "get": [
+                    "obtener",
+                    "tener",
+                    "sacar",
+                    "conseguir",
+                    "recibir",
+                    "adquirir"
+                ],
+                "notfound": [
+                    "no aparece",
+                    "no la encuentro",
+                    "no encuentro",
+                    "no pude encontrarla",
+                    "no me aparece",
+                    "nada aun",
+                    "nada de nada",
+                    "no la veo",
+                    "no veo"
+                ],
+                "info": [
+                    "informacion",
+                    "reporte",
+                    "aclarar",
+                    "aclaracion",
+                    "averiguar",
+                    "indagar",
+                    "indagacion",
+                    "averiguacion",
+                    "verificar",
+                    "verificacion"
+                ],
+                "view": [
+                    "aparece",
+                    "se ve",
+                    "visualiza",
+                    "visualizar",
+                    "mostrando",
+                    "muestra",
+                    "apareciendo",
+                    "visualizando"
+                ],
+                "warnings": [
+                    "observaciones",
+                    "alertas",
+                    "observacion",
+                    "alerta",
+                    "aviso",
+                    "advertencia",
+                    "comentario",
+                    "nota"
+                ],
+                "emptyalias": [
+                    "falta de alias",
+                    "alias cuenta vacia",
+                    "alias no existe",
+                    "alias no encontrado",
+                    "alias vacio"
+                ],
+                "malenoun": [
+                    "hombre",
+                    "caballero",
+                    "chico",
+                    "pibe",
+                    "flaco",
+                    "nene"
+                ],
+                "femalenoun": [
+                    "mujer",
+                    "chica",
+                    "dama",
+                    "piba",
+                    "flaca",
+                    "nena"
+                ],
+                "mennoun": [
+                    "hombres",
+                    "caballeros",
+                    "chicos",
+                    "pibes",
+                    "flacos",
+                    "nenes"
+                ],
+                "womennoun": [
+                    "mujeres",
+                    "chicas",
+                    "damas",
+                    "pibas",
+                    "flacas",
+                    "nenas"
+                ],
+                "lol": [
+                    "lol",
+                    "jaja",
+                    "ja",
+                    "jajaja",
+                    "haha",
+                    "hahaha"
+                ],
+                "colors": [
+                    "blanco",
+                    "negro",
+                    "naranja",
+                    "rojo",
+                    "azul",
+                    "verde",
+                    "amarillo",
+                    "cyan",
+                    "fuchsia",
+                    "gris",
+                    "grey",
+                    "marron",
+                    "turquoise",
+                    "rosado",
+                    "purpura",
+                    "dorado",
+                    "plateado",
+                    "plata"
+                ],
+                "height": [
+                    "alto",
+                    "largo",
+                    "wide",
+                    "thick"
+                ],
+                "measure": [
+                    "inch",
+                    "in",
+                    "centimeter",
+                    "cm",
+                    "millimeter",
+                    "mm",
+                    "meter",
+                    "m",
+                    "inches",
+                    "centimeters",
+                    "millimeters",
+                    "meters"
+                ]
+            },
+            "triggers": []
+        },
+        "topics": {
+            "random": [
+                {
+                    "trigger": "(@register) (@beneficiary)",
+                    "reply": [
+                        "<bot respuesta1>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "(@beneficiary) (@register)",
+                    "reply": [
+                        "<bot respuesta1>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@need) [*] (@register) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta1>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@need) [*] (@beneficiary) [*] (@register) [*]",
+                    "reply": [
+                        "<bot respuesta1>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@need) [*] (@register) [*]",
+                    "reply": [
+                        "<bot respuesta1>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@register) [*] (@need) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta1>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@register) [*] (@beneficiary) [*] (@need) [*]",
+                    "reply": [
+                        "<bot respuesta1>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@register) [*] (@need) [*]",
+                    "reply": [
+                        "<bot respuesta1>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "(@activate) (@beneficiary)",
+                    "reply": [
+                        "<bot respuesta2>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "(@beneficiary) (@activate)",
+                    "reply": [
+                        "<bot respuesta2>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@need) [*] (@activate) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta2>c"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@need) [*] (@beneficiary) [*] (@activate) [*]",
+                    "reply": [
+                        "<bot respuesta2>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@need) [*] (@activate) [*]",
+                    "reply": [
+                        "<bot respuesta2>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@activate) [*] (@need) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta2>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@activate) [*] (@beneficiary) [*] (@need) [*]",
+                    "reply": [
+                        "<bot respuesta2>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@activate) [*] (@need) [*]",
+                    "reply": [
+                        "<bot respuesta2>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@try) [*] (@authorize) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta3>a"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@try) [*] (@beneficiary) [*] (@authorize) [*]",
+                    "reply": [
+                        "<bot respuesta3>b"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@try) [*] (@authorize) [*]",
+                    "reply": [
+                        "<bot respuesta3>c"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authorize) [*] (@try) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta3>d"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authorize) [*] (@beneficiary) [*] (@try) [*]",
+                    "reply": [
+                        "<bot respuesta3>e"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@authorize) [*] (@try) [*]",
+                    "reply": [
+                        "<bot respuesta3>f"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@cant) [*] (@authorize) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta3>g"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@cant) [*] (@beneficiary) [*] (@authorize) [*]",
+                    "reply": [
+                        "<bot respuesta3>h"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@cant) [*] (@authorize) [*]",
+                    "reply": [
+                        "<bot respuesta3>i"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authorize) [*] (@cant) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta3>j"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@authorize) [*] (@cant) [*]",
+                    "reply": [
+                        "<bot respuesta3>k"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authorize) [*] (@beneficiary) [*] (@cant) [*]",
+                    "reply": [
+                        "<bot respuesta3>l"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@recover) [*] (@authcode) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authcode) [*] (@recover) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@arrivenot) [*] (@authcode) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@register) [*] (@beneficiary) [*] (@arrivenot) [*] (@authcode) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@register) [*] (@arrivenot) [*] (@beneficiary) [*] (@authcode) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@register) [*] (@authcode) [*] (@beneficiary) [*] (@arrivenot) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@register) [*] (@arrivenot) [*] (@authcode) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@register) [*] (@authcode) [*] (@arrivenot) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@register) [*] (@arrivenot) [*] (@authcode) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@register) [*] (@authcode) [*] (@arrivenot) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@arrivenot) [*] (@register) [*] (@authcode) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@authcode) [*] (@register) [*] (@arrivenot) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@authcode) [*] (@arrivenot) [*] (@register) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@beneficiary) [*] (@arrivenot) [*] (@authcode) [*] (@register) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@arrivenot) [*] (@beneficiary) [*] (@authcode) [*] (@register) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@arrivenot) [*] (@beneficiary) [*] (@register) [*] (@authcode) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@arrivenot) [*] (@register) [*] (@beneficiary) [*] (@authcode) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@arrivenot) [*] (@authcode) [*] (@beneficiary) [*] (@register) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@arrivenot) [*] (@authcode) [*] (@register) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@arrivenot) [*] (@register) [*] (@authcode) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authcode) [*] (@arrivenot) [*] (@register) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authcode) [*] (@arrivenot) [*] (@beneficiary) [*] (@register) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authcode) [*] (@register) [*] (@arrivenot) [*] (@beneficiary) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authcode) [*] (@beneficiary) [*] (@arrivenot) [*] (@register) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authcode) [*] (@register) [*] (@beneficiary) [*] (@arrivenot) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@authcode) [*] (@beneficiary) [*] (@register) [*] (@arrivenot) [*]",
+                    "reply": [
+                        "<bot respuesta4>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@mail) [*] (@change) [*]",
+                    "reply": [
+                        "<bot respuesta5>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@change) [*] (@mail) [*]",
+                    "reply": [
+                        "<bot respuesta5>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@file) [*] (@program) [*]",
+                    "reply": [
+                        "<bot respuesta7>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@program) [*] (@file) [*]",
+                    "reply": [
+                        "<bot respuesta7>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@upload) [*] (@file) [*] (@manual) [*]",
+                    "reply": [
+                        "<bot respuesta8>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@file) [*] (@upload) [*] (@manual) [*]",
+                    "reply": [
+                        "<bot respuesta8>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@file) [*] (@manual) [*] (@upload) [*]",
+                    "reply": [
+                        "<bot respuesta8>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@upload) [*] (@manual) [*] (@file) [*]",
+                    "reply": [
+                        "<bot respuesta8>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@manual) [*] (@upload) [*] (@file) [*]",
+                    "reply": [
+                        "<bot respuesta8>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@manual) [*] (@file) [*] (@upload) [*]",
+                    "reply": [
+                        "<bot respuesta8>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@file) [*] (@get) [*] (@info) [*]",
+                    "reply": [
+                        "<bot respuesta9>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@file) [*] (@notfound) [*]",
+                    "reply": [
+                        "<bot respuesta9>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@view) [*] (@warnings) [*] (@file) [*]",
+                    "reply": [
+                        "<bot respuesta10>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@file) [*] (@warnings) [*] (@view) [*]",
+                    "reply": [
+                        "<bot respuesta10>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@warnings) [*] (@file) [*] (@view) [*]",
+                    "reply": [
+                        "<bot respuesta10>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@warnings) [*] (@view) [*] (@file) [*]",
+                    "reply": [
+                        "<bot respuesta10>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@view) [*] (@file) [*] (@warnings) [*]",
+                    "reply": [
+                        "<bot respuesta10>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@file) [*] (@view) [*] (@warnings) [*]",
+                    "reply": [
+                        "<bot respuesta10>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@emptyalias) [*]",
+                    "reply": [
+                        "<bot respuesta11>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@upload) [*] (@file) [*]",
+                    "reply": [
+                        "<bot respuesta6>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "[*] (@file) [*] (@upload) [*]",
+                    "reply": [
+                        "<bot respuesta6>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "(@welcome)",
+                    "reply": [
+                        "Hola! ¿Le puedo ayudar en algo?"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "(@welcome) *",
+                    "reply": [
+                        "Hola, {@<star2>}"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "run javascript",
+                    "reply": [
+                        "<call>myFunction</call>"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "mi nombre es *",
+                    "reply": [
+                        "<set name=<star>>Un gusto, <get name>."
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "cual es mi nombre",
+                    "reply": [
+                        "Tu nombre es <get name>, tonto!"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                },
+                {
+                    "trigger": "*",
+                    "reply": [
+                        "Unknown"
+                    ],
+                    "condition": [],
+                    "redirect": null,
+                    "previous": null
+                }
+            ]
+        },
+        "inherits": {
+            "random": {}
+        },
+        "includes": {
+            "random": {}
+        },
+        "objects": {
+            "javascript": {
+                "_objects": {}
+            }
+        },
+        "_id": "dbf7ec28c16d443c9830dcdf90bfb10d"
+    }

@@ -1,0 +1,24 @@
+{
+  "name": "sofia_maker",
+  "version": "1.0.0",
+  "description": "Sofia_maker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "Sofia"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "iconv-lite": "^0.4.15"
+  }
+}
