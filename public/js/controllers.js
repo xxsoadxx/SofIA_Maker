@@ -2727,9 +2727,46 @@ function SofiaCtrl($scope, $http) {
 
     
                 var variab = '! var ' + $scope.varForm.name + ' = ' + $scope.varForm.value;
-                $scope.botdata.begin.var[$scope.varForm.name]=$scope.varForm.value;
-
+               
                 rs.stream(variab);
+                        //////
+                var data = rs.deparse();
+        
+                
+                for(var item in data.topics.random){
+                
+                
+                    var count = (data.topics.random[item].trigger.match(/\(@/g) || []).length;
+                    data.topics.random[item].count = count;
+                }
+
+            
+                data.topics.random.sort(function(a, b) {
+                    return a.count - b.count;
+                });
+                data.topics.random.reverse()
+                $scope.botdata = data;
+                var text = rs.stringify(data);
+                
+                var req = {
+                    method: 'POST',
+                    url: '/save',
+                    headers: {
+                    'Content-Type': 'text/plain'
+                    },
+                    data: text
+                }
+            
+                $http(req)
+                    .success(function (res) {
+                    //success
+                    console.log(res);
+
+                    }
+                );
+               
+
+
                 $('#resultvar').text(variab);
                 $scope.varForm.name = "";
                 $scope.varForm.value = "";
@@ -2755,14 +2792,52 @@ function SofiaCtrl($scope, $http) {
 
 
             }
-            console.log(array);
+          
             rs.stream(array);
+            
+                   //////
+                var data = rs.deparse();
+        
+                
+                for(var item in data.topics.random){
+                
+                
+                    var count = (data.topics.random[item].trigger.match(/\(@/g) || []).length;
+                    data.topics.random[item].count = count;
+                }
+
+            
+                data.topics.random.sort(function(a, b) {
+                    return a.count - b.count;
+                });
+                data.topics.random.reverse()
+                $scope.botdata = data;
+                var text = rs.stringify(data);
+                
+                var req = {
+                    method: 'POST',
+                    url: '/save',
+                    headers: {
+                    'Content-Type': 'text/plain'
+                    },
+                    data: text
+                }
+            
+                $http(req)
+                    .success(function (res) {
+                    //success
+                    console.log(res);
+
+                    }
+                );
+             
+
             $scope.showarray = true;
             $('#resultarray').text(array);
             
 
         
-            $scope.botdata.begin.array[$scope.intentForm.intent] = $scope.intentForm.components;
+            
             $scope.intentForm.components = [];
             $scope.intentForm.intent = "";
             $scope.intentForm.component = "";
@@ -2793,8 +2868,49 @@ function SofiaCtrl($scope, $http) {
             $scope.permutresult = $scope.permutresult + string;
             count++;
         });
-        console.log($scope.permutresult);
+    
+        
+        
+        //////
+        var data = rs.deparse();
+   
+        
+        for(var item in data.topics.random){
+          
+         
+            var count = (data.topics.random[item].trigger.match(/\(@/g) || []).length;
+            data.topics.random[item].count = count;
+        }
 
+       
+        data.topics.random.sort(function(a, b) {
+            return a.count - b.count;
+        });
+        data.topics.random.reverse()
+        $scope.botdata = data;
+        var text = rs.stringify(data);
+        
+        var req = {
+            method: 'POST',
+            url: '/save',
+            headers: {
+            'Content-Type': 'text/plain'
+            },
+            data: text
+        }
+       
+        $http(req)
+            .success(function (res) {
+            //success
+            console.log(res)
+
+            }
+        );
+    
+    
+
+        //download("last_version.rive", text);
+        //////
         $scope.processed = true;
         $('#result').text($scope.permutresult);
         
@@ -2815,6 +2931,20 @@ function SofiaCtrl($scope, $http) {
     }
     $scope.download = function () {
         var data = rs.deparse();
+   
+        
+        for(var item in data.topics.random){
+          
+           console.log(data.topics.random[item].trigger)
+            var count = (data.topics.random[item].trigger.match(/\(@/g) || []).length;
+            data.topics.random[item].count = count;
+        }
+
+       
+        data.topics.random.sort(function(a, b) {
+            return a.count - b.count;
+        });
+        data.topics.random.reverse()
         var text = rs.stringify(data);
         download("last_version.rive", text);
 
@@ -2914,7 +3044,10 @@ angular
 	
 	
 	
-	
+function compareNumbers(a, b)
+{
+    return a - b;
+}
 // noprotect
 function swap(arr, a, b) {
     var temp = arr[a];
