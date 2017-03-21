@@ -5,7 +5,6 @@ function MainCtrl() {
 
 function SofiaCtrl($scope, $http) {
     console.log("SofIACtrl");
-    $('div.ibox-content').slideUp();
 
     var rs = new RiveScript();
     // Load our files from the brain/ folder.
@@ -89,6 +88,8 @@ function SofiaCtrl($scope, $http) {
     
                 var variab = '! var ' + $scope.varForm.name + ' = ' + $scope.varForm.value;
                 $scope.botdata.begin.var[$scope.varForm.name]=$scope.varForm.value;
+
+                rs.stream(variab);
                 $('#resultvar').text(variab);
                 $scope.varForm.name = "";
                 $scope.varForm.value = "";
