@@ -3286,7 +3286,7 @@ video {
 @media (min-width: 768px) {
     #page-wrapper {
         position: inherit;
-        margin: 0 0 0 240px;
+        margin: 0 0 0 0;
         min-height: 1000px;
     }
 }
@@ -6895,7 +6895,7 @@ body.rtls.top-navigation .footer.fixed {
     }
     .body-small.rtls #page-wrapper {
         position: inherit;
-        margin: 0 0 0 0px;
+        margin: 0 0 0 0;
         min-height: 1000px;
     }
     .body-small.rtls .navbar-static-side {
@@ -7375,7 +7375,7 @@ body.skin-3 {
 @media (min-width: 768px) {
     #page-wrapper {
         position: inherit;
-        margin: 0 0 0 220px;
+        margin: 0 0 0 0;
         min-height: 1200px;
     }
     .navbar-static-side {
@@ -7392,7 +7392,7 @@ body.skin-3 {
 @media (max-width: 768px) {
     #page-wrapper {
         position: inherit;
-        margin: 0 0 0 0px;
+        margin: 0 0 0 0;
         min-height: 1000px;
     }
     .body-small .navbar-static-side {
