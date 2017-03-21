@@ -3286,7 +3286,7 @@ video {
 @media (min-width: 768px) {
     #page-wrapper {
         position: inherit;
-        margin: 0 0 0 0;
+        margin: 0 0 0 240px;
         min-height: 1000px;
     }
 }
@@ -5093,7 +5093,7 @@ del {
     right: 75px;
     background: #fff;
     border: 1px solid #e7eaec;
-    width: 307px;
+    width: 230px;
     height: 320px;
     border-radius: 4px;
 }
@@ -6895,7 +6895,7 @@ body.rtls.top-navigation .footer.fixed {
     }
     .body-small.rtls #page-wrapper {
         position: inherit;
-        margin: 0 0 0 0;
+        margin: 0 0 0 0px;
         min-height: 1000px;
     }
     .body-small.rtls .navbar-static-side {
@@ -7375,7 +7375,7 @@ body.skin-3 {
 @media (min-width: 768px) {
     #page-wrapper {
         position: inherit;
-        margin: 0 0 0 0;
+        margin: 0 0 0 220px;
         min-height: 1200px;
     }
     .navbar-static-side {
@@ -7392,7 +7392,7 @@ body.skin-3 {
 @media (max-width: 768px) {
     #page-wrapper {
         position: inherit;
-        margin: 0 0 0 0;
+        margin: 0 0 0 0px;
         min-height: 1000px;
     }
     .body-small .navbar-static-side {
