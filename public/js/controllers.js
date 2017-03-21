@@ -2646,7 +2646,7 @@ function sweetAlertCtrl($scope, SweetAlert) {
 function SofiaCtrl($scope, $http) {
     console.log("SofIACtrl");
 
-    var rs = new RiveScript();
+    var rs = new RiveScript({debug: true});
     // Load our files from the brain/ folder.
     rs.loadFile([
         /*"../SofIA_Brain/lastversion.rive"*/
@@ -2868,12 +2868,12 @@ function SofiaCtrl($scope, $http) {
             $scope.permutresult = $scope.permutresult + string;
             count++;
         });
-    
+        rs.sortReplies();
         
         
         //////
         var data = rs.deparse();
-   
+        
         
         for(var item in data.topics.random){
           
@@ -2886,7 +2886,8 @@ function SofiaCtrl($scope, $http) {
         data.topics.random.sort(function(a, b) {
             return a.count - b.count;
         });
-        data.topics.random.reverse()
+        data.topics.random.reverse();
+        console.log(JSON.stringify(data));
         $scope.botdata = data;
         var text = rs.stringify(data);
         
