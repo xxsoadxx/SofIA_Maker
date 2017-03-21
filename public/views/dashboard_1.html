@@ -174,7 +174,7 @@
     <div ibox-tools></div>
 </div>
 <div class="ibox-content">
-    <table datatable="ng" class="table table-striped table-bordered table-hover dataTables-example">
+    <table datatable="ng" class="table table-striped table-bordered table-hover dataTables-example" >
         <thead>
         <tr>
             <th>Nombre</th>
@@ -202,10 +202,10 @@
     <div ibox-tools></div>
 </div>
 <div class="ibox-content">
-    <table datatable="ng" class="table table-striped table-bordered table-hover dataTables-example">
+    <table datatable="ng" class="table table-striped table-bordered table-hover dataTables-example" style="display: block;overflow-x: auto;">
         <thead>
         <tr>
-            <th>Descripcón</th>
+            <th>Nombre</th>
             <th>Valores</th>
         </tr>
         </thead>
@@ -223,4 +223,33 @@
 </div>
 </div>
 
+
+<div class="small-chat-box ng-small-chat fadeInRight animated" ng-show="openChat">
+
+    <div class="heading" ng-click="openChat = !openChat" draggable="true">
+        Sofia
+    </div>
+
+    <div class="content chatcontent" chat-slim-scroll>
+
+        
+
+
+    </div>
+    <div class="form-chat">
+        <div class="input-group input-group-sm"><input type="text" ng-model="msginput" class="form-control"> <span class="input-group-btn"> <button
+                class="btn btn-primary" ng-click="sendmsg()" type="button">Enviar
+        </button> </span></div>
+    </div>
+
 </div>
+<div id="small-chat" ng-click="openChat = !openChat">
+
+    <a class="open-small-chat">
+        <i class="fa fa-comments"></i>
+
+    </a>
+</div>
+
+</div>
+

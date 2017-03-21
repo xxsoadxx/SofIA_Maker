@@ -2647,17 +2647,15 @@ function sweetAlertCtrl($scope, SweetAlert) {
 function SofiaCtrl($scope, $http) {
     console.log("SofIACtrl");
     $('div.ibox-content').slideUp();
-    $('.ibox-tools a.collapse-link i').toggleClass('fa-chevron-up').toggleClass('fa-chevron-down');
 
     var rs = new RiveScript();
     // Load our files from the brain/ folder.
     rs.loadFile([
-        "../SofIA_Brain/lastversion.rive"
-        /*
+        /*"../SofIA_Brain/lastversion.rive"*/
+        "../SofIA_Brain/vars.rive",
         "../SofIA_Brain/arrays.rive",
-        "../SofIA_Brain/nomina.rive",
-        "../SofIA_Brain/personal.rive",
-        "../SofIA_Brain/substitution.rive",*/
+        "../SofIA_Brain/questions.rive",
+        "../SofIA_Brain/substitution.rive",
     ], on_load_success, on_load_error);
     function on_load_success() {
         rs.sortReplies();
@@ -2668,6 +2666,7 @@ function SofiaCtrl($scope, $http) {
     function on_load_error(err) {
         console.log("Loading error: " + err);
     }
+    $scope.msginput = "";
     $scope.intents = [];
     $scope.showvar = false;
     $scope.showarray = false;
@@ -2682,6 +2681,17 @@ function SofiaCtrl($scope, $http) {
     $scope.intentForm.intent = "";
     $scope.intentForm.component = "";
     $scope.intentForm.components = [];
+
+    $scope.sendmsg = function () {
+        
+        var string = '<div class="left"><div class="chat-message active">'+$scope.msginput+'</div></div>';
+        $('.chatcontent').append(string);
+       
+        var result = rs.reply("user", $scope.msginput);
+        $scope.msginput = "";
+        var string = '<div class="right"><div class="chat-message" style="background-color: #efefef">'+result+'</div></div>';
+        $('.chatcontent').append(string);
+    }
 
     $scope.delete = function (parm) {
         console.log("delete");
@@ -2756,8 +2766,12 @@ function SofiaCtrl($scope, $http) {
 
             }
             console.log(array);
+            rs.stream(array);
             $scope.showarray = true;
             $('#resultarray').text(array);
+            
+
+        
             $scope.botdata.begin.array[$scope.intentForm.intent] = $scope.intentForm.components;
             $scope.intentForm.components = [];
             $scope.intentForm.intent = "";
@@ -2793,9 +2807,9 @@ function SofiaCtrl($scope, $http) {
 
         $scope.processed = true;
         $('#result').text($scope.permutresult);
-        //var data = rs.deparse();
-        //var text = rs.stringify(data);
-        //download("last_version.rive", text);
+        var data = rs.deparse();
+        var text = rs.stringify(data);
+        download("last_version.rive", text);
 
         console.log('There have been ' + count + ' permutations');
         }else{
@@ -2838,8 +2852,8 @@ function SofiaCtrl($scope, $http) {
             color = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6);
             for (var key in value) {
 
-
-                if ($scope.formData.text.indexOf(value[key]) != -1) {
+                var aux = ' ' + $scope.formData.text + ' ';
+                if (aux.indexOf(' '+value[key]) != -1) {
                     var match2 = true;
 
                     $scope.formData.auxtext = $scope.formData.auxtext.replace(value[key], '<span style="color: ' + color + '">' + value[key] + '</span>');
