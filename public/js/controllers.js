@@ -2649,7 +2649,7 @@ function SofiaCtrl($scope, $http) {
     var rs = new RiveScript({debug: true});
     // Load our files from the brain/ folder.
     rs.loadFile([
-        /*"../SofIA_Brain/lastversion.rive"*/
+       /*"../SofIA_Brain/archivofinal.rive"*/
         "../SofIA_Brain/vars.rive",
         "../SofIA_Brain/arrays.rive",
         "../SofIA_Brain/questions.rive",
@@ -3005,7 +3005,13 @@ function SofiaCtrl($scope, $http) {
 
 
     }
+   $('#component').keypress(function(event){
+    if(event.keyCode == 13){
+        $('#componentbtn').click();
+    }
+    });
 };
+
 /**
  *
  * Pass all functions into module
