@@ -2654,12 +2654,12 @@ function SofiaCtrl($scope, $http) {
         "../SofIA_Brain/arrays.rive",
         "../SofIA_Brain/questions.rive",
         "../SofIA_Brain/substitution.rive",
+        "../SofIA_Brain/personalidad.rive",
     ], on_load_success, on_load_error);
     function on_load_success() {
         rs.sortReplies();
         var data = rs.deparse();
         $scope.botdata = data;
-
     }
     function on_load_error(err) {
         console.log("Loading error: " + err);
@@ -2958,24 +2958,20 @@ function SofiaCtrl($scope, $http) {
         $scope.processed = false;
         $scope.formData.auxtext = $scope.formData.text;
         var result = rs.reply("user", $scope.formData.text);
-        console.log(result);
         $scope.intents = [];
 
-        console.log("entro");
         $scope.analizar = true;
 
 
         for (var variable in $scope.botdata.begin.var) {
 
             var consola = result.includes($scope.botdata.begin.var[variable]);
-            console.log(consola);
             if (consola === true) {
-                console.log(variable);
                 $('#resp').val(variable);
 
             }
         }
-
+        console.log($scope.formData.auxtext);
         for (var name in $scope.botdata.begin.array) {
 
             var value = $scope.botdata.begin.array[name];
@@ -2983,12 +2979,15 @@ function SofiaCtrl($scope, $http) {
             var match2 = false;
             color = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6);
             for (var key in value) {
-
-                var aux = ' ' + $scope.formData.text + ' ';
-                if (aux.indexOf(' '+value[key]) != -1) {
+                
+                var aux = ' '+$scope.formData.text+' ';
+                var aval = ' '+value[key]+' ';
+                if (aux.indexOf(aval) != -1) {
+                    console.log("encontro = " + value[key]);
                     var match2 = true;
 
                     $scope.formData.auxtext = $scope.formData.auxtext.replace(value[key], '<span style="color: ' + color + '">' + value[key] + '</span>');
+                    console.log("result = " + $scope.formData.auxtext);
                 }
 
 
